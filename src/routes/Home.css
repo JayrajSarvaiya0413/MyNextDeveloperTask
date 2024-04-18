@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #random-pokemon {
+    margin-top: 40px;
+  }
+  
+  #random-pokemon div {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #random-pokemon h2 {
+    margin-top: 0;
+  }
+  
+  #random-pokemon p {
+    margin: 10px 0;
+  }
+  
+  #random-pokemon img {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    max-height: 200px;
+  }
+  
