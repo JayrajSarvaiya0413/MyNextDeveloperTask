@@ -1,0 +1,31 @@
+.search-container {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%; /* Take up full width */
+    display: flex;
+    justify-content: center;
+  }
+  
+  input[type="text"] {
+    margin-left: 10px;
+    padding: 10px;
+    width: 90%; /* Adjust width */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button[type="button"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px; /* Add margin between input and button */
+  }
+  
+  button[type="button"]:hover {
+    background-color: #0056b3;
+  }

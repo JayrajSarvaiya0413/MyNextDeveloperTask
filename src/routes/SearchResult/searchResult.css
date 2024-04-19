@@ -1,0 +1,65 @@
+/* SearchResult.css */
+
+body {
+    background-color: #f4f4f4; /* Set background color for the whole page */
+    margin: 10px; /* Add margin from all sides */
+  }
+  
+  .search-results-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .search-results {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .special-search-result {
+    /* cursor: pointer; */
+    margin-left: 35% ;
+  }
+  
+  .special-search-result:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .regular-search-results {
+    padding: 20px;
+    background-color: #ffffff; /* Set background color for the regular search results */
+    border-radius: 8px; /* Add border-radius for rounded corners */
+    flex: 1; /* Fill remaining space */
+  }
+  
+  .regular-search-results ul {
+    list-style-type: disc; /* Set bullet points */
+    margin-left: 20px; /* Add margin on the left side */
+  }
+  
+  .regular-search-results li {
+    margin-bottom: 5px; /* Add margin between list items */
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .card-description {
+    font-size: 1rem;
+    color: #555555;
+    text-align: center;
+  }
+  
